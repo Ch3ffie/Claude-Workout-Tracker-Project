@@ -1,0 +1,16 @@
+{
+  "name": "workout-tracker-backend",
+  "version": "1.0.0",
+  "description": "Backend API for Tre's workout progressive overload tracker",
+  "main": "server.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "dependencies": {
+    "better-sqlite3": "^9.4.3",
+    "cors": "^2.8.5",
+    "express": "^4.19.2"
+  }
+}
